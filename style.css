@@ -1,0 +1,71 @@
+/*
+  Name: Avery Killian
+  Date: 09.04.2025
+  CSC 372-01
+
+  This is the shared stylesheet for my travel blog assignment.
+  It enforces typography, colors, and layout as required.
+*/
+
+/* ===== Global Body Styles ===== */
+body {
+  background-color: white;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: Georgia, Garamond, serif;
+  font-size: 11pt;
+  color: #404040;
+  margin: 20px;
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+  color: #A4A400;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: left;
+  font-size: 18pt;
+  font-weight: normal;
+}
+
+/* ===== Links ===== */
+a {
+  color: #A4A400;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Lists ===== */
+ol, ul {
+  margin-left: 30px;
+}
+
+/* ===== Blockquotes ===== */
+blockquote {
+  background-color: #FFFFA8;
+  font-style: italic;
+  padding: 10px;
+  margin: 20px;
+  border-left: 5px solid #A4A400;
+}
+.visitor-tips {
+  list-style: none;
+  padding-left: 25px;
+}
+
+
+.visitor-tips li {
+  background: url("images/Meowth.png") no-repeat left center;
+  padding-left: 25px; /* push text away from bullet */
+}
